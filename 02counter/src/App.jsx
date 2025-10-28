@@ -10,12 +10,22 @@ const [counter, setCounter] = useState(15 )
 
  const addValue = () =>{
   
-  // counter = counter + 1
-  setCounter(counter + 1)
-console.log("clicked", counter);
+  if(counter <20){
+    setCounter(counter + 1)
+  }
+  else{
+   alert("Limit me rh!")
+  }
+ 
+
  }
   const removeValue = () =>{
-   setCounter(counter-1)
+    if(counter>0){
+      setCounter(counter-1)
+    }
+   else{
+    alert("fuck off")
+   }
   }
 
 
