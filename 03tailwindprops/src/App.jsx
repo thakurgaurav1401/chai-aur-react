@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-green-400 text-black p-5 rounded-xl mb-6'>Tialwind test</h1>
+      <h1 className='bg-green-400 text-black p-5 rounded-xl mb-6'>Tailwind test</h1>
 
       <Card username="Quality" btnText="learnmore"/>
       <Card username="Quality"/>
